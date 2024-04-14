@@ -6,5 +6,5 @@
 CREATE PROCEDURE [dbo].[Prueba4]
 AS
 BEGIN
-	SELECT 1 AS Number, 'Isaac' as [Name];
+	SELECT 1 AS Number, 'Isaac Herrera' as [Name];
 END
