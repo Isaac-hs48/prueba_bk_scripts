@@ -3,8 +3,8 @@
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-ALTER PROCEDURE [dbo].[Prueba4]
+ALTER PROCEDURE [dbo].[Prueba5]
 AS
 BEGIN
-	SELECT 1 AS Number, 'Isaac Herrera Moises Herrera' as [Name];
+	SELECT 1 AS Number, 'Isaac3' as [Name];
 END
