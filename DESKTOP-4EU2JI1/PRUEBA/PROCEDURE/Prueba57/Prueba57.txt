@@ -1,0 +1,10 @@
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[Prueba57]
+AS
+BEGIN
+	SELECT 1 AS Number, 'Esto es unaa prueba 2' as [Name];
+END
