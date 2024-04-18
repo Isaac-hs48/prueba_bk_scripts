@@ -3,8 +3,10 @@
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[Prueba100]
+ALTER PROCEDURE [dbo].[Prueba100]
 AS
 BEGIN
-	SELECT 1 AS Number, 'Cambio todo el texto' as [Name];
+	SELECT 1 AS Number, 'Cambio todo el texto' as [Name]
+	WHERE 'Isaac' = 'Isaac';
+
 END
