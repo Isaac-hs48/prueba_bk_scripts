@@ -6,7 +6,5 @@
 ALTER PROCEDURE [dbo].[Prueba54]
 AS
 BEGIN
-	SELECT 1 AS Number, 'Isaacs44443344' as [Name];
+	SELECT 1 AS Number, 'Esto es unaa prueba' as [Name];
 END
-
-
