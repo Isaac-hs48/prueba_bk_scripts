@@ -1,0 +1,10 @@
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[Prueba2]
+AS
+BEGIN
+	SELECT 1 AS Number, 'Isaac' as [Name];
+END
