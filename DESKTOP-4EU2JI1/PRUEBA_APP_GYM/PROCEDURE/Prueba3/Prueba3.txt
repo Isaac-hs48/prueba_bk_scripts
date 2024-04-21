@@ -7,4 +7,4 @@ ALTER PROCEDURE [dbo].[Prueba3]
 AS
 BEGIN
 	SELECT 1 AS Number, 'Isaac' as [Name];
-END
+END;
