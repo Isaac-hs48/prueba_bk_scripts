@@ -1,0 +1,12 @@
+-- =============================================
+-- Author:		Iherrera
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[Prueba101]
+AS
+BEGIN
+	SELECT 1 AS Number, 'Cambio todaaasdo el textossss' as [Name]
+	WHERE 'Isaac' = 'Isaac';
+
+END
