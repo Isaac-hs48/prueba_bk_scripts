@@ -6,7 +6,9 @@
 ALTER PROCEDURE [dbo].[Prueba101]
 AS
 BEGIN
-	SELECT 1 AS Number, 'Cambio o el textossss' as [Name]
+	SELECT 1 AS Number, 'Cambio o el textossss' as [Name],
+	GETDATE() AS CurrentDate,
+	33000 as AMOUNT
 	WHERE 'Isaac' = 'Isaac';
 
 END
