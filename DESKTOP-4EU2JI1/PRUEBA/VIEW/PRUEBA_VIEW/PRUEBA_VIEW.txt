@@ -1,0 +1,3 @@
+ALTER VIEW PRUEBA_VIEW
+AS 
+SELECT 'Name' as Names
