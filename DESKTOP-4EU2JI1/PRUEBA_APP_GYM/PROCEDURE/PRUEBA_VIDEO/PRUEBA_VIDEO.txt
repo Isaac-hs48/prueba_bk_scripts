@@ -3,12 +3,12 @@
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE dbo.PRUEBA_VIDEO
+ALTER PROCEDURE dbo.PRUEBA_VIDEO
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
-    SELECT * FROM ClientsActivity;
+    SELECT U.ClientId FROM ClientsActivity U;
 END
