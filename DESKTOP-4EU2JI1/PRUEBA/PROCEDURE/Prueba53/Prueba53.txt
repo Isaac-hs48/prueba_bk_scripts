@@ -6,8 +6,6 @@
 ALTER PROCEDURE [dbo].[Prueba53]
 AS
 BEGIN
+	EXEC dbo.PruebaSp1 'Name', 'Type';
 	SELECT 1 AS Number, 'Isaac 233332' as [Name];
 END
-
-
-ND
