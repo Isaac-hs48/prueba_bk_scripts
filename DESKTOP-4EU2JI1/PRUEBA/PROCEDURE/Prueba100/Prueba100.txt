@@ -6,6 +6,8 @@
 ALTER PROCEDURE [dbo].[Prueba100]
 AS
 BEGIN
+	EXEC dbo.Prueba5;
+
 	SELECT 1 AS Number, 'Cambio todaaasdo el textossss' as [Name]
 	WHERE 'Isaac' = 'Isaac';
 
